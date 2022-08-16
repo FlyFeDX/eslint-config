@@ -116,7 +116,7 @@ module.exports = {
         'multiline-ternary': 0, // 三元运算符不强制换行
         'prefer-regex-literals': 0, // 正则的构造函数
         'prefer-promise-reject-errors': 0, // reject 仅接收 Error 对象
-        'prettier/prettier': 0, // prettier 在三元运算符换行处的缩进有问题
+        'prettier/prettier': 'off',
 
         'no-eval': 1,
         'no-prototype-builtins': 0,
