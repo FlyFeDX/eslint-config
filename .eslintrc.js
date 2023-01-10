@@ -97,7 +97,7 @@ module.exports = {
                 objects: 'always-multiline',
                 imports: 'always-multiline',
                 exports: 'always-multiline',
-                functions: 'never',
+                functions: 'always-multiline',
             },
         ], // 当最后一个元素或属性与结束或属性位于不同的行时，要求末尾逗号
         'lines-between-class-members': 0, // 方法间是否空行间隔开

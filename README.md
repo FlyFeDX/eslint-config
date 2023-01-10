@@ -2,10 +2,10 @@
 
 我希望通过以下方式为你的项目节省时间：
 
-- **无须配置规则** - 统一的代码风格，无须配置规则，轻松拥有。
-- **自动代码格式化** - 只需运行 `pnpm lint-fix` 轻松整理全部代码格式。
-- **提前发现风格及程序问题** - 减少 Code Review 过程中的人工审查，简单的事情交给工具做，节约时间。
-- **统一团队编码规范** - 一个团队, 一类项目, 一套规则.
+-   **无须配置规则** - 统一的代码风格，无须配置规则，轻松拥有。
+-   **自动代码格式化** - 只需运行 `pnpm lint-fix` 轻松整理全部代码格式。
+-   **提前发现风格及程序问题** - 减少 Code Review 过程中的人工审查，简单的事情交给工具做，节约时间。
+-   **统一团队编码规范** - 一个团队, 一类项目, 一套规则.
 
 再也不用维护 `.eslintrc` 了，开箱即用。
 
@@ -21,7 +21,7 @@ pnpm add @FlyFeDX/lint-config -D
 
 ```js
 module.exports = {
-    extends: [require.resolve('@FlyFeDX/lint-config')],
+    extends: [require.resolve('@FlyFeDX/lint-config/.eslintrc')],
 };
 ```
 

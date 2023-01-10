@@ -1,6 +1,6 @@
 {
     "name": "@FlyFeDX/lint-config",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "lint configs about eslint/stylelint/prettier",
     "main": "index.js",
     "files": [
